@@ -1,4 +1,4 @@
-import { AsyncStorage } from 'react-native'
+import AsyncStorage from '@react-native-async-storage/async-storage'
 
 let getState = async () => {
     let savedState = await AsyncStorage.getItem('state')
